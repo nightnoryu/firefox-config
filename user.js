@@ -1,12 +1,3 @@
-/*
- * user.js for firefox hardening
- * author: m3tro1d
- * references:
- *   https://github.com/arkenfox/user.js
- *   https://pastebin.com/2gJtp1im (Zero user.js)
- */
-
-
 // Disable about:config warning
 user_pref("general.warnOnAboutConfig", false);
 user_pref("browser.aboutConfig.showWarning", false);
