@@ -540,7 +540,7 @@ user_pref("general.smoothScroll.mouseWheel.durationMinMS",      0);            /
 user_pref("general.smoothScroll.mouseWheel.migrationPercent", 100);            ///      100
 user_pref("general.smoothScroll.msdPhysics.continuousMotionMaxDeltaMS", 12);   ///      120
 user_pref("general.smoothScroll.msdPhysics.enabled",                  true);   ///    false
-user_pref("general.smoothScroll.msdPhysics.motionBeginSpringConstant", 200);   ///     1250
+user_pref("general.smoothScroll.msdPhysics.motionBeginSpringConstant", 600);   ///     1250
 user_pref("general.smoothScroll.msdPhysics.regularSpringConstant",     200);   ///     1000
 user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaMS",         10);   ///       12
 user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaRatio",  "1.20");   ///    "1.3"
