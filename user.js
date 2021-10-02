@@ -203,8 +203,8 @@ user_pref("security.ssl.enable_ocsp_stapling", true);
 // Control when to use OCSP fetching (to confirm current validity of certificates)
 user_pref("security.OCSP.enabled", 1);
 
-// Set OCSP fetch failures  to hard-fail
-user_pref("security.OCSP.require", true);
+// Set OCSP fetch failures to hard-fail
+// user_pref("security.OCSP.require", true);
 
 // Disable or limit SHA-1 certificates
 user_pref("security.pki.sha1_enforcement_level", 1);
@@ -363,7 +363,7 @@ user_pref("browser.helperApps.deleteTempFileOnExit", true);
 // Disable page thumbnail collection
 user_pref("browser.pagethumbnails.capturing_disabled", true);
 
-// Disable UITour backend so there is no chance that a remote page can use it ***/
+// Disable UITour backend so there is no chance that a remote page can use it
 user_pref("browser.uitour.enabled", false);
 user_pref("browser.uitour.url", "");
 
@@ -511,7 +511,7 @@ user_pref("middlemouse.scrollbarPosition", true);
 
 // Search highlighting
 user_pref("findbar.highlightAll", true);
-user_pref("findbar.modalHighlight", true);
+// user_pref("findbar.modalHighlight", true);
 
 // Disable reader
 user_pref("reader.parse-on-load.enabled", false);
