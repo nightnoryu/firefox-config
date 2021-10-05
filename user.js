@@ -293,8 +293,8 @@ user_pref("media.webspeech.synth.enabled", false);
 // user_pref("webgl.enable-webgl2", false);
 
 // Limit WebGL
-user_pref("webgl.min_capability_mode", true);
-user_pref("webgl.disable-fail-if-major-performance-caveat", true);
+// user_pref("webgl.min_capability_mode", true);
+// user_pref("webgl.disable-fail-if-major-performance-caveat", true);
 
 // Disable screensharing
 user_pref("media.getusermedia.screensharing.enabled", false);
