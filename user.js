@@ -520,6 +520,13 @@ user_pref("reader.parse-on-load.enabled", false);
 user_pref("browser.compactmode.show", true);
 user_pref("browser.uidensity", 1);
 
+// Disable Mozilla VPN ads
+user_pref("browser.contentblocking.report.hide_vpn_banner", true);
+user_pref("browser.contentblocking.report.vpn-promo.url", "");
+user_pref("browser.contentblocking.report.vpn.url", "");
+user_pref("browser.newtabpage.activity-stream.asrouter.disable-captive-portal-vpn-promo", true);
+user_pref("browser.privatebrowsing.vpnpromourl", "");
+
 // UI fix requirements
 user_pref("browser.proton.enabled", true);
 user_pref("svg.context-properties.content.enabled", true);
