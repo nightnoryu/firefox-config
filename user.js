@@ -147,6 +147,7 @@ user_pref("browser.urlbar.suggest.history", true);
 user_pref("browser.urlbar.suggest.bookmark", true);
 user_pref("browser.urlbar.suggest.openpage", true);
 user_pref("browser.urlbar.suggest.calculator", true);
+user_pref("browser.urlbar.unitConversion.enabled", true);
 user_pref("browser.urlbar.suggest.topsites", false);
 user_pref("browser.urlbar.suggest.engines", false);
 
@@ -529,8 +530,13 @@ user_pref("browser.privatebrowsing.vpnpromourl", "");
 
 // UI fix requirements
 user_pref("browser.proton.enabled", true);
+user_pref("browser.tabs.drawInTitlebar", true);
+user_pref("browser.proton.places-tooltip.enabled", true);
 user_pref("svg.context-properties.content.enabled", true);
 user_pref("layout.css.backdrop-filter.enabled", true);
+user_pref("layout.css.color-mix.enabled", true);
+user_pref("browser.newtabpage.activity-stream.improvesearch.handoffToAwesomebar", false);
+
 // Scrolling options
 //         Pref                                              Value                 Original
 user_pref("apz.allow_zooming",                               true);            ///     true
