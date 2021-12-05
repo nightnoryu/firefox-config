@@ -418,11 +418,11 @@ user_pref("security.dialog_enable_delay", 700);
 user_pref("network.cookie.cookieBehavior", 4);
 user_pref("browser.contentblocking.category", "custom");
 
-// Disable tracking protection (redundant with uBlock0)
-user_pref("privacy.trackingprotection.enabled", false);
-user_pref("privacy.trackingprotection.cryptomining.enabled", false);
-user_pref("privacy.trackingprotection.fingerprinting.enabled", false);
-user_pref("privacy.trackingprotection.pbmode.enabled", false);
+// Disable tracking protection
+user_pref("privacy.trackingprotection.enabled", true);
+user_pref("privacy.trackingprotection.cryptomining.enabled", true);
+user_pref("privacy.trackingprotection.fingerprinting.enabled", true);
+user_pref("privacy.trackingprotection.pbmode.enabled", true);
 
 // Enforce no offline cache storage (appCache)
 user_pref("browser.cache.offline.storage.enable", false);
