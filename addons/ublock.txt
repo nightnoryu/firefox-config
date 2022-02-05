@@ -1,0 +1,62 @@
+{
+  "timeStamp": 1644050013514,
+  "version": "1.40.8",
+  "userSettings": {
+    "advancedUserEnabled": true,
+    "alwaysDetachLogger": false,
+    "externalLists": "https://easylist-downloads.adblockplus.org/bitblock.txt\nhttps://easylist-downloads.adblockplus.org/cntblock.txt\nhttps://hostfiles.frogeye.fr/firstparty-only-trackers-hosts.txt\nhttps://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt\nhttps://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt\nhttps://www.i-dont-care-about-cookies.eu/abp/",
+    "firewallPaneMinimized": false,
+    "importedLists": [
+      "https://easylist-downloads.adblockplus.org/bitblock.txt",
+      "https://easylist-downloads.adblockplus.org/cntblock.txt",
+      "https://hostfiles.frogeye.fr/firstparty-only-trackers-hosts.txt",
+      "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt",
+      "https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt",
+      "https://www.i-dont-care-about-cookies.eu/abp/"
+    ],
+    "popupPanelSections": 31,
+    "webrtcIPAddressHidden": true
+  },
+  "selectedFilterLists": [
+    "user-filters",
+    "ublock-filters",
+    "ublock-badware",
+    "ublock-privacy",
+    "ublock-abuse",
+    "ublock-unbreak",
+    "easylist",
+    "easyprivacy",
+    "urlhaus-1",
+    "fanboy-thirdparty_social",
+    "fanboy-cookiemonster",
+    "ublock-annoyances",
+    "dpollock-0",
+    "mvps-0",
+    "plowe-0",
+    "RUS-0",
+    "https://hostfiles.frogeye.fr/firstparty-only-trackers-hosts.txt",
+    "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/LegitimateURLShortener.txt",
+    "https://www.i-dont-care-about-cookies.eu/abp/",
+    "https://easylist-downloads.adblockplus.org/bitblock.txt",
+    "https://easylist-downloads.adblockplus.org/cntblock.txt",
+    "https://raw.githubusercontent.com/Spam404/lists/master/adblock-list.txt"
+  ],
+  "hiddenSettings": {
+    "cloudStorageCompression": false
+  },
+  "whitelist": [
+    "about-scheme",
+    "chrome-extension-scheme",
+    "chrome-scheme",
+    "edge-scheme",
+    "localhost",
+    "moz-extension-scheme",
+    "opera-scheme",
+    "vivaldi-scheme",
+    "wyciwyg-scheme"
+  ],
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true",
+  "userFilters": "!!! VK\n! Subscription promos and other shitty ads\nvk.com##.audio_promo\nvk.com###block_aliexpress-recommendations-carousel\nvk.com###block_youla-recommendations-carousel\nvk.com##.CatalogBlock__subscription_ru\nvk.com##.ConvoRecommendList\nvk.com##.EasterEggsContainer\nvk.com##.RecommendedNarrativesBlock\nvk.com##.audio_promo\nvk.com##.feed_blog_reminder\nvk.com##.feed_groups_recomm.page_block\nvk.com##.profile_friends_recomm\n! Messages panel\nvk.com##.FCPanel\n\n!!! 4chan\n! Birthday party hats on images\n||s.4cdn.org/image/partyhat.gif$image\nboards.4channel.org##.party-hat\nboards.4chan.org##.party-hat\n! Halloween skeletons\n||s.4cdn.org/image/skeletons/*.gif$image\n! Christmas decorations\n||4cdn.org/js/snow.js\n||4cdn.org/image/xmashat.gif\nboards.4channel.org##div[class=\"js-snowflake\"]\nboards.4channel.org##img[class=\"party-hat\"]\nboards.4channel.org##.autoplay-removed.desktop\nboards.4channel.org##.fortune\nboards.4chan.org##.fortune\n\n!!! 2ch\n! Containment board\n||2ch.hk/b/$all\n! Annoying things like snow\n||2ch.*/makaba/templates/img/santa_hat.png\n||2ch.hk/makaba/templates/js/events\n! Banners with weird ads\n||2ch.*/banners/*\n||2ch.*/music/**\n||2ch.*/ololo/**\n! Overlay with telegram ad or some other shit at the top\n2ch.hk###plashque\n! Board list on the left\n2ch.hk##.cntnt__left\n! Various settings bar on the top, the one that always shows up when not intending to\n2ch.hk##.adminbar__boards_sticky:style(position:static!important)\n! Panel with main, contacts, passcode, ads and other bullshit\n2ch.hk##.adminbar__menu.desktop\n! Favorites panel\n2ch.hk##.bb.desktop\n! Original post formatting buttons\n2ch.hk##.postform__raw.js-postform-mu\n"
+}
