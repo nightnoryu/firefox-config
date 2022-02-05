@@ -62,6 +62,11 @@ user_pref("browser.safebrowsing.downloads.remote.url", "");
 user_pref("browser.safebrowsing.provider.mozilla.gethashURL", "");
 user_pref("browser.safebrowsing.provider.mozilla.updateURL", "");
 
+// Disable downloads panel opening on every download
+user_pref("browser.download.alwaysOpenPanel", false);
+// Disable adding downloads to the system's "recent documents" list
+user_pref("browser.download.manager.addToRecentDocs", false);
+
 // Disable activity stream shit
 user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
 user_pref("browser.newtabpage.activity-stream.telemetry", false);
@@ -100,6 +105,9 @@ user_pref("extensions.getAddons.showPane", false);
 user_pref("extensions.getAddons.cache.enabled", false);
 user_pref("extensions.getAddons.discovery.api_url", "");
 user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
+
+// Disable bypassing 3rd party extension install prompts
+user_pref("extensions.postDownloadThirdPartyPrompt", false);
 
 // Disable Normandy/Shield (telemetry system  that can also push and test "recipes")
 user_pref("app.normandy.enabled", false);
@@ -324,7 +332,7 @@ user_pref("browser.link.open_newwindow.restriction", 0);
 user_pref("dom.disable_open_during_load", true);
 
 // Limit events that can cause a popup
-user_pref("dom.popup_allowed_events", "click dblclick");
+user_pref("dom.popup_allowed_events", "click dblclick mousedown pointerdown");
 
 // Disable Push Notifications
 user_pref("dom.webnotifications.enabled", false);
@@ -383,9 +391,6 @@ user_pref("webchannel.allowObject.urlWhitelist", "");
 // Enforce Punycode for Internationalized Domain Names to eliminate possible spoofing
 user_pref("network.IDN_show_punycode", true);
 
-// Enforce Firefox's built-in PDF reader
-user_pref("pdfjs.disabled", false);
-
 // Disable links launching Windows Store on Windows 8/8.1/10 [WINDOWS]
 user_pref("network.protocol-handler.external.ms-windows-store", false);
 
@@ -398,9 +403,6 @@ user_pref("permissions.delegation.enabled", false);
 // Enable "window.name" protection [FF82+]
 user_pref("privacy.window.name.update.enabled", true);
 
-// Disable adding downloads to the system's "recent documents" list
-user_pref("browser.download.manager.addToRecentDocs", false);
-
 // Disable hiding mime types (Options>General>Applications) not associated with a plugin
 user_pref("browser.download.hide_plugins_without_extensions", false);
 
@@ -410,9 +412,6 @@ user_pref("extensions.autoDisableScopes", 15);
 
 // Enforce CSP (Content Security Policy)
 user_pref("security.csp.enable", true);
-
-// Enforce a security delay on some confirmation dialogs such as install, open/save
-user_pref("security.dialog_enable_delay", 700);
 
 // Disable 3rd-party cookies and site-data (0=Accept cookies and site data, 1=(Block) All third-party cookies, 2=(Block) All cookies, 3=(Block) Cookies from unvisited websites, 4=(Block) Cross-site and social media trackers (default))
 user_pref("network.cookie.cookieBehavior", 4);
@@ -504,7 +503,7 @@ user_pref("accessibility.tabfocus", 3);
 // Disable PDF viewing
 user_pref("pdfjs.disabled", true);
 
-// Disable delay for buttons when downloading files
+// Disable delay for buttons when downloading files/confirming
 user_pref("security.dialog_enable_delay", 0);
 
 // Instantly scroll to where on middle mouse button
