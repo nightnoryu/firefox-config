@@ -468,7 +468,7 @@ user_pref("browser.tabs.loadBookmarksInTabs", true);
 user_pref("browser.urlbar.decodeURLsOnCopy", true);
 
 // Disable hardware media keys
-user_pref("media.hardwaremediakeys.enabled", false);
+user_pref("media.hardwaremediakeys.enabled", true);
 
 // Disable recommendations
 user_pref("browser.newtabpage.activity-stream.asrouter.userprefs.cfr.addons", false);
