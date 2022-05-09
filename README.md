@@ -1,5 +1,7 @@
 # My Firefox configuration
 
+Aimed at functionality, privacy and pretty interface. Sensitive files are encrypted.
+
 ## References:
 - [Arkenfox user.js](https://github.com/arkenfox/user.js)
 - [Zero user.js](https://pastebin.com/2gJtp1im)
