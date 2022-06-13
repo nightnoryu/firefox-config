@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1652082231593,
+  "timeStamp": 1655118368707,
   "version": "1.42.4",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -60,5 +60,5 @@
   "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
   "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true",
-  "userFilters": "!!! VK\n! Subscription promos and other shitty ads\nvk.com##.audio_promo\nvk.com###block_aliexpress-recommendations-carousel\nvk.com###block_youla-recommendations-carousel\nvk.com##.CatalogBlock__subscription_ru\nvk.com##.ConvoRecommendList\nvk.com##.EasterEggsContainer\nvk.com##.RecommendedNarrativesBlock\nvk.com##.audio_promo\nvk.com##.feed_blog_reminder\nvk.com##.feed_groups_recomm.page_block\nvk.com##.profile_friends_recomm\n! Messages panel\nvk.com##.FCPanel\n\n!!! 4chan\n! Birthday party hats on images\n||s.4cdn.org/image/partyhat.gif$image\nboards.4channel.org##.party-hat\nboards.4chan.org##.party-hat\n! Halloween skeletons\n||s.4cdn.org/image/skeletons/*.gif$image\n! Christmas decorations\n||4cdn.org/js/snow.js\n||4cdn.org/image/xmashat.gif\nboards.4channel.org##div[class=\"js-snowflake\"]\nboards.4channel.org##img[class=\"party-hat\"]\nboards.4channel.org##.autoplay-removed.desktop\nboards.4channel.org##.fortune\nboards.4chan.org##.fortune\n"
+  "userFilters": "!!! VK\n! Subscription promos and other shitty ads\nvk.com##.audio_promo\nvk.com###block_aliexpress-recommendations-carousel\nvk.com###block_youla-recommendations-carousel\nvk.com##.CatalogBlock__subscription_ru\nvk.com##.ConvoRecommendList\nvk.com##.EasterEggsContainer\nvk.com##.RecommendedNarrativesBlock\nvk.com##.audio_promo\nvk.com##.feed_blog_reminder\nvk.com##.feed_groups_recomm.page_block\nvk.com##.profile_friends_recomm\n\n!!! 4chan\n! Birthday party hats on images\n||s.4cdn.org/image/partyhat.gif$image\nboards.4channel.org##.party-hat\nboards.4chan.org##.party-hat\n! Halloween skeletons\n||s.4cdn.org/image/skeletons/*.gif$image\n! Christmas decorations\n||4cdn.org/js/snow.js\n||4cdn.org/image/xmashat.gif\nboards.4channel.org##div[class=\"js-snowflake\"]\nboards.4channel.org##img[class=\"party-hat\"]\nboards.4channel.org##.autoplay-removed.desktop\nboards.4channel.org##.fortune\nboards.4chan.org##.fortune\n"
 }
