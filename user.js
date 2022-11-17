@@ -306,9 +306,9 @@ user_pref("media.webspeech.synth.enabled", false);
 // user_pref("webgl.disable-fail-if-major-performance-caveat", true);
 
 // Disable screensharing
-user_pref("media.getusermedia.screensharing.enabled", false);
-user_pref("media.getusermedia.browser.enabled", false);
-user_pref("media.getusermedia.audiocapture.enabled", false);
+// user_pref("media.getusermedia.screensharing.enabled", false);
+// user_pref("media.getusermedia.browser.enabled", false);
+// user_pref("media.getusermedia.audiocapture.enabled", false);
 
 // Set a default permission for Camera/Microphone (0=always ask (default), 1=allow, 2=block)
 user_pref("permissions.default.geo", 2);
