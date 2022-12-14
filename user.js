@@ -662,3 +662,6 @@ user_pref("toolkit.scrollbox.verticalScrollDistance",           3);            /
 
 // Stop drive raping with session storage
 user_pref("browser.sessionstore.interval", 3600000);
+
+// Cycle between recently opened tabs on ctrl+tab
+user_pref("browser.ctrlTab.sortByRecentlyUsed", true);
