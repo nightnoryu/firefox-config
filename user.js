@@ -501,7 +501,7 @@ user_pref("browser.tabs.tabMinWidth", 150);
 user_pref("accessibility.tabfocus", 3);
 
 // Disable PDF viewing
-user_pref("pdfjs.disabled", true);
+// user_pref("pdfjs.disabled", true);
 
 // Disable delay for buttons when downloading files/confirming
 user_pref("security.dialog_enable_delay", 0);
