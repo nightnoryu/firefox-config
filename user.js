@@ -316,7 +316,7 @@ user_pref("permissions.default.camera", 2);
 user_pref("permissions.default.microphone", 2);
 
 // Disable autoplay of HTML5 media (0=Allow all, 1=Block non-muted media (default in FF67+), 2=Prompt (removed in FF66), 5=Block all (FF69+))
-user_pref("media.autoplay.default", 5);
+// user_pref("media.autoplay.default", 5);
 
 // Disable autoplay of HTML5 media if you interacted with the site (0=sticky (default), 1=transient, 2=user)
 user_pref("media.autoplay.blocking_policy", 2);
