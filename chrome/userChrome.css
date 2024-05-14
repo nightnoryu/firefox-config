@@ -10,6 +10,11 @@
   display: none !important;
 }
 
+/* Enable option to edit bookmark URLs under Add Bookmark (blue star) menu */
+.editBMPanel_locationRow {
+  display: initial !important;
+}
+
 /* Disable Email Image/Audio/Video and Set as Desktop Background context menu items */
 #context-sendimage,
 #context-sendvideo,
