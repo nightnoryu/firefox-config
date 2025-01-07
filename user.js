@@ -313,7 +313,7 @@ user_pref("media.webspeech.synth.enabled", false);
 // Set a default permission for Camera/Microphone (0=always ask (default), 1=allow, 2=block)
 user_pref("permissions.default.geo", 2);
 user_pref("permissions.default.camera", 2);
-user_pref("permissions.default.microphone", 2);
+user_pref("permissions.default.microphone", 0);
 
 // Disable autoplay of HTML5 media (0=Allow all, 1=Block non-muted media (default in FF67+), 2=Prompt (removed in FF66), 5=Block all (FF69+))
 // user_pref("media.autoplay.default", 5);
@@ -364,7 +364,7 @@ user_pref("accessibility.force_disabled", 1);
 user_pref("services.settings.server", "");
 
 // Disable sending additional analytics to web servers
-user_pref("beacon.enabled", false);
+// user_pref("beacon.enabled", false);
 
 // Remove temp files opened with an external application
 user_pref("browser.helperApps.deleteTempFileOnExit", true);
